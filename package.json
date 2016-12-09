@@ -1,0 +1,22 @@
+{
+  "name": "eugene-skills",
+  "version": "1.0.0",
+  "description": "TBD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Derek Lindahl <derek.lindahl@gmail.com>",
+  "license": "ISC",
+  "keywords": [
+    "alexa",
+    "skills"
+  ],
+  "bugs": "derek.lindahl@gmail.com",
+  "contributors": [],
+  "repository": "",
+  "homepage": "",
+  "engines": {
+    "node": ">= 6.0.0"
+  }
+}
