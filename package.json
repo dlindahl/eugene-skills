@@ -4,7 +4,8 @@
   "description": "TBD",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:lint",
+    "test:lint": "eslint functions"
   },
   "author": "Derek Lindahl <derek.lindahl@gmail.com>",
   "license": "ISC",
@@ -18,5 +19,12 @@
   "homepage": "",
   "engines": {
     "node": ">= 6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "3.12.0",
+    "eslint-config-standard": "6.2.1",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-promise": "3.4.0",
+    "eslint-plugin-standard": "2.0.1"
   }
 }
