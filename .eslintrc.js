@@ -1,6 +1,7 @@
 module.exports = {
   "env": {
     "browser": true,
+    "es6": true,
     "jest": true,
     "node": true
   },
@@ -10,6 +11,7 @@ module.exports = {
     "plugin:import/errors",
     "plugin:import/warnings"
   ],
+  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true
@@ -46,7 +48,7 @@ module.exports = {
       {
         "allow": [
           "**/src/**/*",
-          "empty/*"
+          "model/*"
         ]
       }
     ],

@@ -1,0 +1,24 @@
+{
+  "session": {
+    "sessionId": "SessionId.b7a6446b-aa7c-40ed-8376-cdd33944e57f",
+    "application": {
+      "applicationId": "amzn1.ask.skill.461ea165-84cd-44f6-a903-a286332352bf"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.AFZEEGV6T4GA6UDGFH7U6IUUNH76OQU7NHJ2TORGHSEOSO47XUAF2YDPH4CFRQORMBN37BT3I5IBQNMSM5R4Q4N4WSR667LJM2NA63BAK7GTQRSKXBG4RDGIUBH3EEGRMGQVS3KQ66CK2UKB6NOFFOU6FRGHMPLFTVGIMTDLYVKDSPKAG4VLRNUO7V7HZ32OMI5Y7IY6SNZNQDA"
+    },
+    "new": true
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.0529970b-d047-413a-8ff5-f241cb8d4d01",
+    "locale": "en-US",
+    "timestamp": "2016-12-10T09:44:43Z",
+    "intent": {
+      "name": "WatchTvIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "eugene-skills",
+  "description": "",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::702124601559:role/eugene-skills_lambda_function",
+  "environment": {},
+  "runtime": "nodejs4.3",
+  "handler": "build.handler",
+  "hooks": {
+    "build": "rm -rf dist && ../../node_modules/.bin/webpack --config ../../webpack.config.js",
+    "clean": "rm -rf build"
+  }
+}

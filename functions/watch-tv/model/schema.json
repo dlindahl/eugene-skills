@@ -1,0 +1,23 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "WatchTvIntent"
+    },
+    {
+      "intent": "TuneTvIntent",
+      "slots": [
+        {
+          "name": "channel",
+          "type": "AMAZON.BroadcastChannel"
+        },
+        {
+          "name": "channelNum",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    }
+  ]
+}

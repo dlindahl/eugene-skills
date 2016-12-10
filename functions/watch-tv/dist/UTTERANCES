@@ -1,0 +1,11 @@
+TuneTvIntent change the channel to {channel}
+TuneTvIntent tune in to {channel}
+TuneTvIntent watch {channel}
+TuneTvIntent change the channel to {channelNum}
+TuneTvIntent tune in to {channelNum}
+TuneTvIntent watch {channelNum}
+
+WatchTvIntent turn on the TV
+WatchTvIntent turn on the television
+WatchTvIntent watch TV
+WatchTvIntent watch television
