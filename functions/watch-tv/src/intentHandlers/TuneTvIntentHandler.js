@@ -6,9 +6,6 @@ const wordify = require('../wordifyChannelNum')
 
 function tivoExec (cmd) {
   console.info('Issuing TiVO command: ', cmd)
-  if (process.env.NEVERTRUE === undefined) {
-    return Promise.resolve()
-  }
   return new Promise((resolve, reject) => {
     const conn = new Telnet()
     conn.on('timeout', () => reject(new Error('TIMEOUT')))
