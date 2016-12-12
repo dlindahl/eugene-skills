@@ -5,7 +5,5 @@ TuneTvIntent change the channel to {channelNum}
 TuneTvIntent tune in to {channelNum}
 TuneTvIntent watch {channelNum}
 
-WatchTvIntent turn on the TV
-WatchTvIntent turn on the television
-WatchTvIntent watch TV
-WatchTvIntent watch television
+WatchTvIntent turn on
+WatchTvIntent turn off
