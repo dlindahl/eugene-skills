@@ -1,5 +1,6 @@
 {
   "name": "eugene-skills",
+  "defaultEnvironment": "development",
   "description": "",
   "memory": 128,
   "timeout": 5,

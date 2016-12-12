@@ -1,4 +1,5 @@
 const channels = require('../../data/channels.json')
+const env = require('../../config/environment')
 const find = require('lodash.find')
 const findChannel = require('../searchChannelList')
 const Telnet = require('telnet-client')
@@ -13,10 +14,10 @@ function tivoExec (cmd) {
     return conn.connect({
       debug: true,
       execTimeout: 2000,
-      host: '76.105.62.135',
+      host: env.get('tivoIp'),
       negotiationMandatory: false,
       ors: '\r',
-      port: 31339,
+      port: env.get('tivoPort'),
       shellPrompt: 'CH_STATUS',
       timeout: 2000
     })
