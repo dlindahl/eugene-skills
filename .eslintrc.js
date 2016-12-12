@@ -48,6 +48,7 @@ module.exports = {
       {
         "allow": [
           "**/src/**/*",
+          "data/*",
           "model/*"
         ]
       }

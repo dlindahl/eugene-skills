@@ -42,7 +42,15 @@
     "alexa-sdk": "1.0.6",
     "empty": "0.10.1",
     "intent-utterance-generator": "0.0.2",
+    "isomorphic-fetch": "2.2.1",
+    "lodash.filter": "4.6.0",
+    "lodash.find": "4.6.0",
+    "lodash.flatten": "4.4.0",
+    "lodash.map": "4.6.0",
+    "lodash.orderby": "4.6.0",
+    "lodash.partition": "4.6.0",
     "number-to-words": "1.2.3",
-    "telnet-client": "0.12.3"
+    "telnet-client": "0.12.3",
+    "thinker-fts": "1.0.10"
   }
 }
