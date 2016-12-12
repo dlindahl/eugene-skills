@@ -19,7 +19,7 @@
   "repository": "",
   "homepage": "",
   "engines": {
-    "node": ">= 6.0.0"
+    "node": ">= 4.3.0"
   },
   "devDependencies": {
     "alexa-utterances": "0.2.1",
